@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<body>
+<h2>Test Connectivity with Mongo DB </h2>
+	<a href="./db/status">Test</a>
+</body>

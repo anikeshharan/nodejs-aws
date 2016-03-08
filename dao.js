@@ -1,0 +1,1 @@
+var MongoClient = require('mongodb').MongoClient;var assert = require('assert');exports.getConnectivityWithMongoDb = function(mongodb_host, mongodb_port,callback){    	var url = 'mongodb://'+mongodb_host+':'+mongodb_port+'/test';	MongoClient.connect(url, callback);	}

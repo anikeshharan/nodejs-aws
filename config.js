@@ -1,0 +1,1 @@
+var config = {}config.mongodb = {};config.mongodb.host = process.env.MONGODB_HOST;config.mongodb.port = process.env.MONGODB_PORT;module.exports = config;
