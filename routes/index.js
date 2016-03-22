@@ -7,9 +7,8 @@ var express = require('express'),
 var router = express.Router();
 var assert = require('assert');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/', function (req, res) {
+  res.send('hello jenkins');
 });
 
 router.route('/status')
