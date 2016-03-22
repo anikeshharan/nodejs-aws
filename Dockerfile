@@ -19,7 +19,7 @@ RUN chmod +x /bin/docker
 RUN groupadd docker
  
 # Add the connected user "${USERNAME}" to the docker group.
-RUN gpasswd -a ${USERNAME} docker
+RUN gpasswd -a ${USERNAME} jenkins
  
 # Restart the docker daemon.
 RUN service docker restart
