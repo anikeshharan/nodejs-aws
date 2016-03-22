@@ -10,6 +10,8 @@ COPY package.json /usr/src/app/
 # Bundle app source
 COPY . /usr/src/app
 
+RUN npm install
+
 CMD [ "npm", "start" ]
 
 #RUN wget https://get.docker.io/builds/Linux/x86_64/docker-latest -O /bin/docker
